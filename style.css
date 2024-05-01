@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    /*quando reinicia o site a imagem muda*/
+    background-size: cover;
+    height: 100vh;
+    /*100% da tela inteira*/
+    width: 100vw;
+    /*cobre todo o fundo com a imagem, para a imagem nao ficar quebrada*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.busca {
+    background-color: none;
+    opacity: 0.8;
+    width: 95%;
+    max-width: 450px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #00000052;
+    color: white;
+    width: calc(100% - 100px);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+input::placeholder {
+    color: #b5b5b5;
+    text-align: center;
+}
+
+.lupa {
+    height: 20px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: #00000052;
+    cursor: pointer;
+    border-radius: 50%;
+    float: right;
+}
+
+button:hover {
+    background-color: #323232b4;
+}
+
+.info {
+    background-color: #00000052;
+    border-radius: 25px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cidade {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.temp {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.icon-clima{
+    height: 35px;
+}
+
+.info-clima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
