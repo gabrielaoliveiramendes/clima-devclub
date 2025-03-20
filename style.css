@@ -6,8 +6,7 @@
 }
 
 body {
-    background-image: url("https://source.unsplash.com/?landscape");
-    /*quando reinicia o site a imagem muda*/
+    background-color: #000000;
     background-size: cover;
     height: 100vh;
     /*100% da tela inteira*/
